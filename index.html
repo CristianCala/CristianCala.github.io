@@ -27,7 +27,7 @@
        <div id="carga"></div>
     </div>
 
-    <span class="ir-arriba"><i class="arriba fas fa-arrow-alt-circle-up fa-3x"></i></span>
+    <span class="ir-arriba arriba fas fa-arrow-alt-circle-up fa-3x"></span>
 
     <!-- Fin del loader -->
     <header>
@@ -45,10 +45,7 @@
 			  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				    <ul class="navbar-nav mr-auto">
 				      <li class="nav-item">
-				        <a class="nav-link active font-weight-bolder" href="#">Inicio<span class="sr-only">(current)</span></a>
-				      </li>
-				      <li class="nav-item">
-				        <a class="nav-link active font-weight-bolder" href="#">Cómic</a>
+				        <a class="nav-link active font-weight-bolder" href="#">Cómics</a>
 				      </li>
 				      <li class="nav-item">
 				        <a class="nav-link active font-weight-bolder" href="#">Novedades</a>
@@ -67,11 +64,12 @@
       <!-- Fin de la barra de navegación -------------------------------------------------------------->
       <!-- Encabezado ---------------------------------------------------------------------------------->
       <div class="container pt-5">
-        <img src="img/White_logo.png" width="70" height="70" class="img-fluid p">
+        <img src="img/White_logo.png" width="100" height="100" class="img-fluid p">
         <h1 class="pt-2"><strong>Sector Hero</strong></h1>
         <h3><strong>Creación y desarrollo profesional de historietas venezolanas</strong></h3>
       </div>
       <!-- Fin de Encabezado ------------------------------------------------------------------------->
+
    	</header>
     <main>
       <!-- Inicio de Descripción ---------------------------------------------------------------------->
@@ -85,10 +83,75 @@
         </div>
       </section>
       <!-- Fin de Descripción ------------------------------------------------------------------------------->
-
+      <br>
+      <br>
       <!-- Inicio de la Galería --------------------------------------------------------------------------->
       <section class="galeria">
+                
+        <div class="container">
+          <div class="carousel slide" id="main-carousel" data-ride="carousel">
+            <!-- Indicadores  -->
+            <ol class="carousel-indicators">
+              <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#main-carousel" data-slide-to="1"></li>
+              <li data-target="#main-carousel" data-slide-to="2"></li>
+              <li data-target="#main-carousel" data-slide-to="3"></li>
+              <li data-target="#main-carousel" data-slide-to="4"></li>
+            </ol>
+            <!-- Fin de Indicadores -->
+            
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block img-fluid" src="img/3.jpg" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1>Sector Hero</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio accusamus quam, voluptates excepturi, repellat quasi architecto! Repellat similique ratione tempora voluptates obcaecati illo inventore consequatur, magni minus numquam qui odio.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="img/3.jpg" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Titulo 2</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt ipsam quia, nemo officia magni obcaecati tempore dolorum a at eaque in distinctio, ab explicabo soluta! Et atque aliquid molestiae, sit.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="img/3.jpg" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Título 3</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur vel, impedit expedita voluptates rem maiores eaque odio consequuntur repellat odit ullam, magni, asperiores laudantium explicabo aut enim quia maxime provident!</p>
+                </div>
+              </div>
 
+              <div class="carousel-item">
+                <img src="img/3.jpg" alt="" class="d-block img-fluid">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Título 4</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo minima est omnis? Amet distinctio, corporis veniam, itaque officiis porro aperiam ipsam sequi voluptatum, repellat maxime, accusamus eveniet quam voluptas.</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="img/3.jpg" alt="" class="d-block img-fluid">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Título 5</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci esse vitae exercitationem fugit, numquam minus!</p>
+                </div>
+              </div>
+            </div>
+            
+            
+            <a href="#main-carousel" class="carousel-control-prev" data-slide="prev">
+              <span class="fas fa-angle-double-left fa-3x" style="color: #E5DBDB;"></span>
+              <span class="sr-only " aria-hidden="true">Prev</span>
+            </a>
+            <a href="#main-carousel" class="carousel-control-next" data-slide="next">
+              <span class="fas fa-angle-double-right fa-3x" style="color: #E5DBDB;"></span>
+              <span class="sr-only" aria-hidden="true">Next</span>
+            </a>
+          </div>
+        </div>
+<!-- 
         <div class="imagenes">
           <img src="img/1.jpg" alt="">
         </div>
@@ -111,10 +174,12 @@
 
         <div class="imagenes">
           <img src="img/5.jpg" alt="">
-        </div>
+        </div> -->
 
       </section>  
       <!-- Fin de la Galería -------------------------------------------------------------------------------->
+      <br>
+      <br>
       <!-- Inicio descripción de equipo ----------------------------------------------------------------->
       <section>
         <div>
@@ -127,66 +192,74 @@
       
               <div class="card">
                 <div class="card-img-block"> 
-                  <img class="card-img-top img-fluid" src="img/5.jpg" class="card-img-top" alt="...">
+                  <img class="card-img-top img-fluid" src="img/Jonathan.png" class="card-img-top" alt="...">
                 </div>
                 <div class="card-body">
                   <h4 class="card-title text-center"><strong>Jonathan Reyes</strong></h5>
                   <h5 class="card-subtitle text-center text-info"><strong>Director</strong></h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="icon-block text-center"><a href="#"><i class="fab fa-facebook-square fa-lg px-2"></i></a><a href="#"><i class="fab fa-twitter fa-lg px-2"></i></a><a href="#"><i class="fab fa-google-plus fa-lg px-2"></i></a></div>
+                  <div class="icon-block text-center"><a href="#"><i class="fab fa-facebook-square fa-lg px-2"></i></a><a href="#"><i class="fab fa-twitter fa-lg px-2"></i></a><a href="#"><i class="fab fa-instagram fa-lg px-2"></i></a></div>
                 </div>
               </div>
                 <!-- Card numero 2 -->
               <div class="card">
                 <div class="card-img-block">
-                  <img class="card-img-top img-fluid" src="img/5.jpg" class="card-img-top" alt="...">
+                  <img class="card-img-top img-fluid" src="img/Gregory.png" class="card-img-top" alt="...">
                 </div>
                 <div class="card-body">
                   <h4 class="card-title text-center"><strong>Gregory Machado</strong></h4>
                   <h5 class="card-subtitle text-center text-info"><strong>Subdirector</strong></h5>
                   <p class="card-text">This is a wider card with supporting text below as a naturalead-in to additional content. This content is a little bit longer.</p>
-                  <div class="icon-block text-center"><a href="#"><i class="fab fa-facebook-square fa-lg px-2"></i></a><a href="#"><i class="fab fa-twitter fa-lg px-2"></i></a><a href="#"><i class="fab fa-google-plus fa-lg px-2"></i></a></div>
+                  <div class="icon-block text-center"><a href="#"><i class="fab fa-facebook-square fa-lg px-2"></i></a><a href="#"><i class="fab fa-twitter fa-lg px-2"></i></a><a href="#"><i class="fab fa-instagram fa-lg px-2"></i></a></div>
                 </div>
               </div>
                   <!-- Card numero 3 -->
               <div class="card">
                 <div class="card-img-block">
-                  <img class="card-img-top img-fluid" src="img/5.jpg" class="card-img-top" alt="...">
+                  <img class="card-img-top img-fluid" src="img/Cristian.png" class="card-img-top" alt="...">
                 </div>
                 <div class="card-body">
                   <h4 class="card-title text-center"><strong>Cristian Cala</strong></h4>
                   <h5 class="card-subtitle text-center text-info"><strong>Programador</strong></h5>
                   <p class="card-text">This is a wider card with supporting text below as a naturalead-in to additional content. This content is a little bit longer.</p>
-                  <div class="icon-block text-center"><a href="#"><i class="fab fa-facebook-square fa-lg px-2"></i></a><a href="#"><i class="fab fa-twitter fa-lg px-2"></i></a><a href="#"><i class="fab fa-google-plus fa-lg px-2"></i></a></div>
+                  <div class="icon-block text-center"><a href="#"><i class="fab fa-facebook-square fa-lg px-2"></i></a><a href="#"><i class="fab fa-twitter fa-lg px-2"></i></a><a href="#"><i class="fab fa-instagram fa-lg px-2"></i></a><a href="#"><i class="fab fa-github fa-lg px-2"></i></a></div>
                 </div>
               </div>
 
-            </div> <!-- fin de la deck 1 -->
+            </div> 
+            <!-- fin de la deck 1 -->
 
             <div class="card-deck py-2">
                   <!-- Card numero 4 -->
-              <div class="card">
+
+              <div class="col-md-2">
+              </div>
+
+              <div class="card col-md-4">
                 <div class="card-img-block">
-                  <img class="card-img-top img-fluid" src="img/5.jpg" class="card-img-top" alt="...">
+                  <img class="card-img-top img-fluid" src="img/Jose.png" class="card-img-top" alt="...">
                 </div>
                 <div class="card-body">
                   <h4 class="card-title text-center"><strong>José Gabriel</strong></h4>
                   <h5 class="card-subtitle text-center text-info"><strong>Diseñador</strong></h5>
                   <p class="card-text">This is a wider card with supporting text below as a naturalead-in to additional content. This content is a little bit longer.</p>
-                  <div class="icon-block text-center"><a href="#"><i class="fab fa-facebook-square fa-lg px-2"></i></a><a href="#"><i class="fab fa-twitter fa-lg px-2"></i></a><a href="#"><i class="fab fa-google-plus fa-lg px-2"></i></a></div>
+                  <div class="icon-block text-center"><a href="#"><i class="fab fa-facebook-square fa-lg px-2"></i></a><a href="#"><i class="fab fa-twitter fa-lg px-2"></i></a><a href="#"><i class="fab fa-instagram fa-lg px-2"></i></a></div>
                 </div>
               </div>
                 <!-- Card numero 5 -->
-              <div class="card">
+              <div class="card col-md-4">
                 <div class="card-img-block">
-                  <img class="card-img-top img-fluid" src="img/5.jpg" class="card-img-top" alt="...">
+                  <img class="card-img-top img-fluid" src="img/Carlos.png" class="card-img-top" alt="...">
                 </div>
                 <div class="card-body">
                   <h4 class="card-title text-center"><strong>Carlos Gonzáles</strong></h4>
-                  <h5 class="card-subtitle text-center text-info"><strong>Ingeniero</strong></h5>
+                  <h5 class="card-subtitle text-center text-info"><strong>Autor</strong></h5>
                   <p class="card-text">This is a wider card with supporting text below as a naturalead-in to additional content. This content is a little bit longer.</p>
-                  <div class="icon-block text-center"><a href="#"><i class="fab fa-facebook-square fa-lg px-2"></i></a><a href="#"><i class="fab fa-twitter fa-lg px-2"></i></a><a href="#"><i class="fab fa-google-plus fa-lg px-2"></i></a></div>
+                  <div class="icon-block text-center"><a href="#"><i class="fab fa-facebook-square fa-lg px-2"></i></a><a href="#"><i class="fab fa-twitter fa-lg px-2"></i></a><a href="#"><i class="fab fa-instagram fa-lg px-2"></i></a></div>
                 </div>
+              </div>
+
+              <div class="col-md-2">
               </div>
               <!-- Fin de las card  y la deck 2-->
             </div>
