@@ -4,17 +4,16 @@
 	box-sizing: border-box; 
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	font-family: 'Arvo', serif;
 }
 
 header {
 	width: 100%;
 	height: 650px;
-	background-image: url(img/Fondo_Caracas.jpg);
+	background-image: url(img/Fondo_Caracas.png);
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
-	position: relative;#8F8787
+	position: relative;
 	overflow: hidden;
 	color:#FFFFFFFF;
 	text-align: center;
@@ -24,11 +23,12 @@ header {
 body {
 	z-index: 100;
 	width: 100%;
-	background-image: url(img/Fondo.jpg);
+	background-image: url(img/Fondo1.jpg);
 	background-attachment: fixed;
 	background-size: cover; 
 	position: relative;
 	color: #FFFFFF;
+
 }
 
 /*flecha para subir*/
@@ -55,72 +55,182 @@ body {
 }
 /*Inicio de la Galería--------------------------------------------------------------------*/
 
-/*.imagenes{
-	width: 20%;
-	height: 500px;
-	overflow: hidden;
-	position: relative;
+#sliderproduct .carousel-inner {
+  overflow: visible;
 }
 
-.imagenes img{
-	width: 100%;
-	height: 100%;
-	object-fit:cover;
+#sliderproduct .col-sm-6.image {
+  background: #fff;
+  box-shadow: 0px 4px 8px 0px #959595;
+  position: relative;
 }
-*/
-/*.galeria{
-	width: 100%;
-	height: 500px;
-	overflow: hidden;
-	display: flex;
-	position: relative;
-	clip-path: polygon(0 40%, 100% 0, 100% 66%, 0 100%);
+.item {
+  height: 415px;
+}
+
+.col-sm-6.image .item img.img-fluid {
+  width: 415px;
+}
+.col-sm-6.image h1 {
+  margin-bottom: 20px;
 }
 
 
-.encima{
-	position: absolute;
-	top:0;
-	left: 0;
-	width: 100%;
-	height:100%;
-	background:rgba(52,73,94,0.5);
+#sliderproduct .top a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 14px 22px;
+  background: #e0794fCC;
+  box-sizing: border-box !important;
+  text-align: center;
+  margin: 0px 2px;
+  display: block;
+  color: #fff;
+  width: 96px;
 }
 
-.encima h2{
-	position: relative;
-	top: 45%;
-	text-align: center;
-	color: #fff;
+#sliderproduct .col-sm-4.mr-auto {
+  margin-top: 22px;
 }
 
-.encima div{
-	position: relative;
-	display:  block;
-	top: 46%;
-	width: 40px;
-	height: 5px;
-	background: #fff;
-	margin:auto;
-}*/
+
+#sliderproduct p.cr1 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+#sliderproduct .col-sm-6:last-child {
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+
+
+#sliderproduct .details .btn {
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 16px 22px;
+  color: #fff;
+  border-radius: 81px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+#sliderproduct .details h2 {
+  margin: 25px 0px 30px 0px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#sliderproduct .details p.cr4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 0px;
+}
+#sliderproduct .carousel-item{
+  transition: 0.4s;
+}
+
+.bg {
+  height: 570px;
+  overflow: hidden;
+}
+
+#sliderproduct ol.carousel-indicators {
+  display: none;
+}
+
+
 /*Fin de la Galería---------------------------------------------------------------------------*/
 
 /*Estilos de las card*/
-.card-img-block {
-    width: 91%;
-    margin: 0 auto;
-    position: relative;
-    top: -20px;
-    
+
+.card{
+	height: 425px;
+
 }
-.card-img-block img{
-    box-shadow:0 0 10px rgba(0,0,0,0.63);
+
+.carda{
+	height: auto;
+	width: 115%;
+	position: relative;
+	top: -32%;
+	right: 25px;
+	margin:auto;
+}
+
+.card-body{
+	position: relative;
+	top: -32%;
 }
 
 i:hover {
   background-color:rgba(52,73,94,0.2);
   color:#000000;
   border-radius: 5px;
+}
+
+/*boton de las card*/
+.botoncito .spans{
+	position: absolute;
+	display: block;
+}
+
+.botoncito .spans:nth-child(1){
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 5px;
+	background: linear-gradient(90deg, transparent, #ffffff);
+}
+
+.botoncito:hover .spans:nth-child(1){
+	left: 100%;
+	transition: 1s;
+}
+
+.botoncito .spans:nth-child(2){
+	top: -100%;
+	right: 0;
+	width: 5px;
+	height: 100%;
+	background: linear-gradient(180deg, transparent, #ffffff);
+}
+
+.botoncito:hover .spans:nth-child(2){
+	top: 100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+
+.botoncito .spans:nth-child(3){
+	bottom: 0;
+	right: -100%;
+	width: 100%;
+	height: 5px;
+	background: linear-gradient(270deg, transparent, #ffffff);
+}
+
+.botoncito:hover .spans:nth-child(3){
+	right: 100%;
+	transition: 1s;
+	transition-delay: 0.5s;
+}
+
+.botoncito .spans:nth-child(4){
+	bottom: -100%;
+	left: 0;
+	width: 5px;
+	height: 100%;
+	background: linear-gradient(360deg, transparent, #ffffff);
+}
+
+.botoncito:hover .spans:nth-child(4){
+	bottom: 100%;
+	transition: 1s;
+	transition-delay: 0.75s;
 }
 
 /*Fin de de las card*/
