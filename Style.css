@@ -49,9 +49,53 @@ body {
 }
 /*fin de flecha para subir*/
 
-.parrafo{
-	text-indent: 40px;
+
+/*Inicio de Descripción de la página*/
+.corte1{
+  clip-path: polygon(0 0, 93% 0, 80% 100%, 0 100%);
 }
+.corte2{
+  clip-path: polygon(19% 0, 100% 0, 100% 100%, 7% 100%);
+}
+.contenedor_descripcion{
+  background: #ffff;
+}
+.contenedor_invisible{
+  max-width: 5% !important;
+}
+.seccion{
+  border-radius: 30px;
+}
+.parrafo{
+  text-indent: 40px;
+}
+
+/*cuando la pantalla de 1-575*/
+@media (min-width: 1px) and (max-width: 575px){
+.corte1{
+  margin-left: -10% !important ;
+  margin-bottom: 3rem !important ;
+}
+.corte2{
+  margin-right:-10% !important ;
+  margin-top: 3rem !important;
+}
+.contenedor_titulo{
+  -webkit-transform: rotate(-25deg);
+  -moz-transform: rotate(-25deg);
+  -o-transform: rotate(-25deg);
+  -ms-transform: rotate(-25deg);
+  transform: rotate(-25deg);
+}
+}
+/*Cuando la pantalla 576-1540*/
+@media (min-width: 576px) and (max-width: 1540px) {
+.contenedor_descripcion{
+  clip-path: polygon(0 0, 100% 0, 83% 100%, 0% 100%);
+}
+}
+/*Fin de descripción de la página*/
+
 /*Inicio de la Galería--------------------------------------------------------------------*/
 
 .immersive_slider {
@@ -214,7 +258,7 @@ body {
 
 
 .is-next,  .is-prev {
-  padding: 5px 5px 15px;
+  padding: 45px 45px 15px;
   font-size: 50px;
   position: absolute;
   bottom: 50%;
