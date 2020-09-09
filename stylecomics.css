@@ -1,0 +1,17 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+body {
+	z-index: 100;
+	width: 100%;
+	background-image: url(img/Fondo1.jpg);
+	background-attachment: fixed;
+	background-size: cover; 
+	position: relative;
+	color: #FFFFFF;
+}
