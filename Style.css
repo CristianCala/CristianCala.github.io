@@ -63,6 +63,9 @@ body {
 .contenedor_invisible{
   max-width: 5% !important;
 }
+.contenedor_unity{
+  margin-right: 0px !important;
+}
 .seccion{
   border-radius: 30px;
 }
